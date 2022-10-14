@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+   /*  color: #575757!important; */
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -1040,3 +1040,17 @@ h4 {
         text-align: center;
     }
 }
+
+/* Ajout de CSS */
+
+.nav > li > a {font-weight: bold; font-size: 18px; text-transform: uppercase;}
+
+#bloc-1-hero h2 {text-align: center; color: #F3976C; font-size: 300% ;}
+
+#bloc-2-services h2 {max-width: 550px; margin: 0 auto 30px auto; font-size: 200%;}
+
+#bloc-2-services blockquote {font-weight: bold; font-style: italic; font-size: 18px;}
+#bloc-2-services blockquote .author {margin-top: 20px; font-weight: 500; font-style: normal ;}
+h2.strong {font-size: 200%; text-shadow: 2px 2px 8px #000; color: #f3976c; z-index: 5; position: relative;}
+
+h2.soft-section-title {font-size: 200%;}
