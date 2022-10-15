@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto;
 }
 
 h2 {
@@ -779,8 +779,9 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #cc6b3e;
     color: #FFFFFF!important;
+    text-shadow: 2px 2px 8px #000a;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1054,3 +1055,8 @@ h4 {
 h2.strong {font-size: 200%; text-shadow: 2px 2px 8px #000; color: #f3976c; z-index: 5; position: relative;}
 
 h2.soft-section-title {font-size: 200%;}
+
+footer ul li>a {color: white;}
+#bloc-8 {background-color: #cc6b3e;}
+
+:focus {border: 2px solid red;}
