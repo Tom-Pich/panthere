@@ -1056,7 +1056,8 @@ h2.strong {font-size: 200%; text-shadow: 2px 2px 8px #000; color: #f3976c; z-ind
 
 h2.soft-section-title {font-size: 200%;}
 
-footer ul li>a {color: white;}
-#bloc-8 {background-color: #cc6b3e;}
+footer {color: white; background-color: #cc6b3e;}
+footer a {color: white;}
+footer h4 {color: inherit !important; font-weight: bold ;}
 
 :focus {border: 2px solid red;}
